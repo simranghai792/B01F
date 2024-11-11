@@ -1,0 +1,92 @@
+/* Top Bar */
+ 
+.top-bar {
+    width: 100%; /* Occupies the full width of the page */
+    background-color: #4b145b;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 2rem;
+    position: fixed; /*Keeps the top bar fixed at the top*/
+    top: 0;
+    left: 0;
+    z-index: 1000;  /*Ensures the top bar is above other content*/
+    box-sizing: border-box;  /*Includes padding in the width calculation*/
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+  
+  /* Main Navbar */
+.main-navbar {
+    width:100%;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    top: 0;
+    left:0;
+    margin: 10px;
+}
+  
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+  
+.logo img {
+    width: 300px;
+    height: 150px;
+}
+
+.nav-box {
+    background-color: #f5f5f5;
+    padding: 0.5rem 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height:47px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+  
+.nav-links a:hover {
+    color: #4b145b;
+}
+  
+.login-btn {
+    padding: 0.5rem 1.5rem;
+    background-color: #4b145b;
+    color: #fff;
+    border: none;
+    padding: 10px 65px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+  
+.login-btn:hover {
+    background-color: #3a0d4a;
+}
+  
+.image1 {
+    margin-top: 65px;
+    width: 1539px; 
+    height: 610px;  
+ }  
