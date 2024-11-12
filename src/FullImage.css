@@ -1,0 +1,54 @@
+
+/* Container to hold the image and overlay content */
+.image-container {
+    position: relative;
+    width: 1539px;
+    height: auto;
+    background :  linear-gradient(257.29deg, rgba(153, 124, 152, 0.6) 6.5%, #FFFFFF 18.5%, rgba(159, 13, 118, 0.27) 41%, #FFFFFF 77.5%, rgba(153, 124, 152, 0.4) 90.5%);
+}
+  
+/* background styling */
+.full-width-image {
+    width: 1539px;
+    height: 100vh; 
+    object-fit: cover; 
+}
+  
+/* Overlay-content styling */
+.content-overlay {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-align: center;
+    background: linear-gradient(257.29deg, rgba(153, 124, 152, 0.6) 6.5%, #FFFFFF 18.5%, rgba(159, 13, 118, 0.27) 41%, #FFFFFF 77.5%, rgba(153, 124, 152, 0.4) 90.5%);
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+#purple{
+    color: rgb(172, 17, 172);
+}  
+#blue{
+    color: #4b145b;
+}
+#lightBlue{
+    color: #8806b0;
+}  
+
+@media screen and  (max-width: 768px){
+
+.image-container{
+        width: 500px;
+        padding: 1rem;
+}
+
+.full-width-image{
+       width: 100px;
+       padding-top: 5rem;
+       padding-bottom : 0;
+}
+
+}

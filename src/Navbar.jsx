@@ -5,8 +5,8 @@ import { FaLinkedin, FaFacebook, FaInstagram, FaTwitter, FaWhatsapp, FaTelegram 
 
 const Navbar = () => {
   return (
-    <header>
-      {/* Top Bar */}
+    <>
+      {/* Top */}
       <div className="top-bar">
         <div className="social-icons">
           <FaLinkedin />
@@ -18,8 +18,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Main Navbar */}
+      {/* Navbar */}
       <nav className="main-navbar">
+
         <div className="logo">
           <img src="https://www.figma.com/file/e76WnDWdgGQ5BIsFquOska/image/b08c3bbbf49ee60f8a5df2f81285d0a2ab6a61e3" alt="Logo" />
         </div>
@@ -36,11 +37,12 @@ const Navbar = () => {
       </div>
 
         <button className="login-btn">Login</button>
+
       </nav>
 
         <img src="https://www.figma.com/file/e76WnDWdgGQ5BIsFquOska/image/a3e156d2c3fcfd46170af834948db61c6f536491" alt="Error" className="image1"/>
 
-    </header>
+    </>
 
   );
 };
