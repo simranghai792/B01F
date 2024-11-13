@@ -3,7 +3,7 @@
 .image-container {
     position: relative;
     width: 1539px;
-    height: auto;
+    height: 1000px;
     background :  linear-gradient(257.29deg, rgba(153, 124, 152, 0.6) 6.5%, #FFFFFF 18.5%, rgba(159, 13, 118, 0.27) 41%, #FFFFFF 77.5%, rgba(153, 124, 152, 0.4) 90.5%);
 }
   
@@ -13,17 +13,31 @@
     height: 100vh; 
     object-fit: cover; 
 }
+
+.map{
+    width: 800px;
+    position: relative;
+    left: 600px;
+    bottom: 500px;
+    height: 480px; 
+}
+
+.group{
+    position:relative;
+    bottom: 190px;
+    width:500px;
+    height:500px;
+}
   
 /* Overlay-content styling */
 .content-overlay {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: #000;
     text-align: center;
     background: linear-gradient(257.29deg, rgba(153, 124, 152, 0.6) 6.5%, #FFFFFF 18.5%, rgba(159, 13, 118, 0.27) 41%, #FFFFFF 77.5%, rgba(153, 124, 152, 0.4) 90.5%);
-    
     padding: 20px;
     border-radius: 10px;
 }
@@ -43,12 +57,24 @@
 .image-container{
         width: 500px;
         padding: 1rem;
+        height: 700px;
 }
 
 .full-width-image{
        width: 100px;
        padding-top: 5rem;
-       padding-bottom : 0;
+       height: 100px;
+}
+
+.map, .group{
+    display: none;
+}
+
+.content-overlay{
+    /* margin-top: 200px; */
+    /* margin-bottom: 30px; */
+    padding: 0;
+    height:500px;
 }
 
 }

@@ -1,0 +1,37 @@
+.outer2{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.card2{
+    display: flex;
+    width: 200px;
+    height: 220px;
+    border: 2px solid black;
+    display: inline-block;
+    /* margin: 10px; */
+    background-color: #EE481447;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: 1s; 
+}
+
+.card2:hover{
+    box-shadow: 0 8px 16px black;
+} 
+
+@media screen and (max-width:768px){
+    .para2{
+        display:flex;
+        justify-content: flex-start;
+    }
+
+    .outer2{ 
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card2{
+        margin-bottom: 20px;
+    }
+}
