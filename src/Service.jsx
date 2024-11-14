@@ -19,7 +19,7 @@ const Service = () => {
     return(
     <>
          <h1>Our Services</h1>
-         <p className="para">We offer some fantastic services</p>
+         <p className="para2">We offer some fantastic services</p>
 
       <div className="outer3">
        <div class="card3">

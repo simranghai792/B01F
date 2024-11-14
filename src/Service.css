@@ -237,3 +237,20 @@ img{
         flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width: 430px){
+  .card3{
+      width: 200px;
+      margin-bottom: 20px;
+  }
+
+  .para2{
+    display:flex;
+  }
+
+  .outer3{ 
+      width: 300px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+}

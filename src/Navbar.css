@@ -31,7 +31,6 @@
     justify-content: space-between;
     background-color: #fff;
     left:0;
-    /* backdrop-filter: blur(10px);  */
     z-index: 600;
 }
   
@@ -94,17 +93,20 @@
 }
   
 .nav-box {
-    padding: 1px;
+    display:flex;
+    margin-left: 0.5rem;
+    align-items: center;
+    width: 600px;
+    height: 90px;
 }
-  
+
 .login-btn {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
 .image1{
-    width: 600px;
-    height: 1390px;
+    width: 50rem;
+    height: 99rem;
     margin-bottom: 10px;
-}
+} 
 }
